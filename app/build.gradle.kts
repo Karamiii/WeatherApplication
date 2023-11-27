@@ -6,6 +6,7 @@ android {
     namespace = "com.example.weatherapplication"
     compileSdk = 34
 
+
     defaultConfig {
         applicationId = "com.example.weatherapplication"
         minSdk = 28
@@ -14,6 +15,10 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+
+
+
     }
 
     buildTypes {
@@ -23,12 +28,11 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+
         }
     }
-    compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
-    }
+
+
 }
 
 dependencies {

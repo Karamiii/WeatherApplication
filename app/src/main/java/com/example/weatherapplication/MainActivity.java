@@ -25,16 +25,18 @@ import org.json.JSONObject;
 
 public class MainActivity extends AppCompatActivity {
 
-    private LocationManager locationManager;
-    public String CityText; // Variable to store the "City: " string
+        private LocationManager locationManager;
+        public String CityText; // Variable to store the "City: " string
 
-    private boolean userManualLocationCheck = false;
-    public String CountryText; // Variable to store the "Country: " string
+        private boolean userManualLocationCheck = false;
+        public String CountryText; // Variable to store the "Country: " string
 
-    private String city = "";
+        private String city = "";
 
-    private double latitude;
-    private double longitude;
+        private double latitude;
+        private double longitude;
+
+        private String Apikey = "ADD YOUR OWN API KEY HERE";
 
     private double temperature;
 
@@ -141,9 +143,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void getWeather(View view) {
         // Retrieve weather information using OpenWeatherMap API
+
         String baseUrlStart = "https://api.openweathermap.org/data/2.5/weather?q=";
-        String baseUrlEnd = "&appid=1124ca64182ff9c03f6bc13a1ed5122c&units=metric";
+        String baseUrlEnd = "&appid=" + Apikey + "&units=metric";
         String URL = baseUrlStart + city + baseUrlEnd;
+
 
         StringRequest request = new StringRequest(Request.Method.GET, URL, response -> {
             // Successful response, parse and handle weather data
