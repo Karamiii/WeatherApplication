@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- App Name -->
+    <string name="app_name">Weather application</string>
+
+    <!-- MainActivity -->
+    <string name="city_text">City: </string>
+    <string name="country_text">Country: </string>
+    <string name="temperature_label">Temperature: </string>
+    <string name="description_label">Description: </string>
+    <string name="location_button">Get Location</string>
+    <string name="get_weather_button">Get Weather</string>
+    <string name="weather_information_title">Weather information:</string>
+    <string name="location_information_title">Location Information:</string>
+    <string name="settings_button">Settings</string>
+
+    <!-- SettingsActivity -->
+    <string name="manual_location_switch">Set location manually</string>
+    <string name="country_hint">Enter a Country</string>
+    <string name="city_hint">Enter a City</string>
+    <string name="back_to_main_button">Back to Main</string>
+    <string name="open_maps_button">Open in Google Maps</string>
+    <string name="settings_Title_text">Settings</string>
+
+</resources>
