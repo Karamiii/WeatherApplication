@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Weather application</string>
+    <string name="city_text">"Kaupunki: "</string>
+    <string name="country_text">"Maa: "</string>
+    <string name="temperature_label">"Lämpötila: "</string>
+    <string name="description_label">"Kuvaus: "</string>
+    <string name="location_button">Hae sijainti</string>
+    <string name="get_weather_button">Hae sää</string>
+    <string name="weather_information_title">Säätiedot:</string>
+    <string name="location_information_title">"Sijaintitiedot: "</string>
+    <string name="settings_button">Asetukset</string>
+    <string name="manual_location_switch">Aseta sijainti manuaalisesti</string>
+    <string name="country_hint">Syötä maa</string>
+    <string name="city_hint">Syötä kaupunki</string>
+    <string name="back_to_main_button">Takaisin</string>
+    <string name="open_maps_button">Avaa Google Mapsissa</string>
+    <string name="settings_Title_text">Asetukset</string>
+</resources>
